@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and generated runtime data
+logs/
+*.log
+chroma_db/
+tmp/
+temp/
+*.tmp
+
+# IDE / local agent settings
+.idea/
+.vscode/
+.claude/
+
+# Document with embedded author metadata; keep local, do not publish
+/data/扫地机器人100问.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db
